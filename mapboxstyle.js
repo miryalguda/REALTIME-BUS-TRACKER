@@ -44,9 +44,7 @@ const busStops = [
   
   var marker = new mapboxgl.Marker()
   .setLngLat( [-71.14150208407806, 42.39475281949548]).addTo(map);
-  //TODO: add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
   
-  // counter here represents the index of the current bus stop
   let counter = 0;
   function move() {
     setTimeout ( ()=> {
